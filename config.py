@@ -11,14 +11,14 @@ class BaseConfig:
             'func': 'apschedulerjob:spider_province',
             'args': '',
             'trigger': 'interval',
-            'seconds': 30
+            'seconds': 3600
         },
         {
             'id': 'city',
             'func': 'apschedulerjob:spider_city',
             'args': '',
             'trigger': 'interval',
-            'seconds': 30
+            'seconds': 3600
         }
     ]
     # 添加APS的API开关
